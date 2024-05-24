@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HiveEngine network status API to select the best node.">
+
+    <title>Hive Network Status</title>
+    
+    <meta property="og:title" content="Hive-Engine network status" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="https://netstat.hivelive.me" />
+    
+    <link href="/pico.min.css" rel="stylesheet">
+    <style>
+        .text-center{text-align: center;}
+        a[role="button"] {width: 100%;}
+        .proposal{padding: 1%; text-align: center;}
+        .proposal p {font-weight: bold;}
+    </style>
+  </head>
+
+  <body>
+    <main class="container">
+        <h1 class="text-center">Hive Network Status</h1>
+        <article class="proposal">
+            <p>A Hive DHF Proposal is online to fund NetworkStatus and other projects. If you like my work, just vote for this proposal.<br>Thank you very much for your support.</p>
+            <a role="button" target="_blank" href="https://peakd.com/proposals/289">Support the HiveLive proposal</a>
+        </article>
+        <p>Hive Network Status is a small developer API to have Hive, Hive-Engine or HiveSQL network status.</p>
+
+        <p>Every endpoints return a response in JSON format.</p>
+        <h2>Hive-Engine nodes</h2>
+        <div class="grid">
+            <article>
+                <h3>/he/all</h3>
+                <p>Return all nodes, sorted by process time</p>
+
+                <p>Query : <code>curl https://netstat.hivelive.me/he/all</code></p>
+                <details>
+                    <summary role="button" class="secondary">Response example</summary>
+                    <pre><code>
+[
+    {
+        "url": "herpc.actifit.io",
+        "name": "herpc.actifit.io",
+        "online": true,
+        "ping": 14,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "full",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:36",
+            "blockNumber": 32845567,
+            "refHiveBlockNumber": 79844281,
+            "hash": "03e5a2cdbf7c914af3d4585114ee1bc3e9873f76f9fd15938f1e627b171621d4",
+            "previousHash": "1e33e56db9eda4dd45e16909ccbe4a5aca263d570367bbf95b4fa0c412632608"
+        }
+    },
+    {
+        "url": "herpc.kanibot.com",
+        "name": "herpc.kanibot.com",
+        "online": true,
+        "ping": 17,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "full",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:18",
+            "blockNumber": 32845561,
+            "refHiveBlockNumber": 79844275,
+            "hash": "bd03641be87abb90bc1f848434149ff8e345f58b810e93ac719c4b43e906130d",
+            "previousHash": "e8c71e2909faae58e197bfb63fd09dd317acf52107982f670ca8f5dd32359bba"
+        }
+    },
+    {
+        "url": "he.atexoras.com:2083",
+        "name": "he.atexoras.com:2083",
+        "online": true,
+        "ping": 20,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "full",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:33",
+            "blockNumber": 32845566,
+            "refHiveBlockNumber": 79844280,
+            "hash": "1e33e56db9eda4dd45e16909ccbe4a5aca263d570367bbf95b4fa0c412632608",
+            "previousHash": "0669c8301f3fab8d9166c1d6cf911641a2d943d6f99e41e5724cb7790717bade"
+        }
+    },
+    {
+        "url": "he.ausbit.dev",
+        "name": "he.ausbit.dev",
+        "online": true,
+        "ping": 21,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "full",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:30",
+            "blockNumber": 32845565,
+            "refHiveBlockNumber": 79844279,
+            "hash": "0669c8301f3fab8d9166c1d6cf911641a2d943d6f99e41e5724cb7790717bade",
+            "previousHash": "924026b3b36a000bfa92f3fb79899b5a7263d864c27682b595e46215bc9f4043"
+        }
+    },
+    {
+        "url": "he.sourov.dev",
+        "name": "he.sourov.dev",
+        "online": true,
+        "ping": 25,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "full",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:30",
+            "blockNumber": 32845565,
+            "refHiveBlockNumber": 79844279,
+            "hash": "0669c8301f3fab8d9166c1d6cf911641a2d943d6f99e41e5724cb7790717bade",
+            "previousHash": "924026b3b36a000bfa92f3fb79899b5a7263d864c27682b595e46215bc9f4043"
+        }
+    },
+    {
+        "url": "api.primersion.com",
+        "name": "api.primersion.com",
+        "online": true,
+        "ping": 31,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "full",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:24",
+            "blockNumber": 32845563,
+            "refHiveBlockNumber": 79844277,
+            "hash": "1ad0b24beccbe4ea944dbc3df1f5921366c9f28330ba65fc30b29cc97b434c36",
+            "previousHash": "6cbf490ddafc8aa4b7e423b90a318837e3a81837b72d5245fbddca4fad083c97"
+        }
+    },
+    {
+        "url": "ha.herpc.dtools.dev",
+        "name": "ha.herpc.dtools.dev",
+        "online": true,
+        "ping": 43,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "full",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:24",
+            "blockNumber": 32845563,
+            "refHiveBlockNumber": 79844277,
+            "hash": "1ad0b24beccbe4ea944dbc3df1f5921366c9f28330ba65fc30b29cc97b434c36",
+            "previousHash": "6cbf490ddafc8aa4b7e423b90a318837e3a81837b72d5245fbddca4fad083c97"
+        }
+    },
+    {
+        "url": "api2.hive-engine.com\/rpc",
+        "name": "api2.hive-engine.com",
+        "online": true,
+        "ping": 50,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "light",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:42",
+            "blockNumber": 32845569,
+            "refHiveBlockNumber": 79844283,
+            "hash": "9458bd52af222c8132d5edc07a40e49e165f72a9f3939bbd6ded10cb22c4cc16",
+            "previousHash": "1c49731c9e826493616427404f8b5e0b5b12208d582b347572c2e3d46bb7b46c"
+        }
+    },
+    {
+        "url": "herpc.dtools.dev",
+        "name": "herpc.dtools.dev",
+        "online": true,
+        "ping": 153,
+        "status": {
+            "version": "1.10.0",
+            "nodeType": "full",
+            "chain": "mainnet-hive"
+        },
+        "lastBlock": {
+            "timestamp": "2023-11-03T18:06:24",
+            "blockNumber": 32845563,
+            "refHiveBlockNumber": 79844277,
+            "hash": "1ad0b24beccbe4ea944dbc3df1f5921366c9f28330ba65fc30b29cc97b434c36",
+            "previousHash": "6cbf490ddafc8aa4b7e423b90a318837e3a81837b72d5245fbddca4fad083c97"
+        }
+    },
+    {
+        "url": "ctpmain.com",
+        "name": "ctpmain.com",
+        "error": true,
+        "online": false,
+        "message": "This node is OFFLINE!"
+    },
+    {
+        "url": "api.hive-engine.com\/rpc",
+        "name": "api.hive-engine.com",
+        "error": true,
+        "online": false,
+        "message": "This node is OFFLINE!"
+    },
+    {
+        "url": "engine.rishipanthee.com",
+        "name": "engine.rishipanthee.com",
+        "online": true,
+        "ping": 107,
+        "status": {
+            "error": true,
+            "message": "The API can't return any status data!"
+        },
+        "lastBlock": {
+            "error": true,
+            "message": "The API can't return any last block data!"
+        }
+    }
+]
+                    </code></pre>
+                </details>
+                <a role="button" href="/he/all">Display all nodes</a>
+            </article>
+
+            <article>
+                <h3>/he/best</h3>
+                <p>Return only the fastest Hive-Engine node</p>
+
+                <p>Query : <code>curl https://netstat.hivelive.me/he/best</code></p>
+
+                <details>
+                    <summary role="button" class="secondary">Response example</summary>
+                    <pre><code>
+{
+    "url": "herpc.actifit.io",
+    "name": "herpc.actifit.io",
+    "online": true,
+    "ping": 14,
+    "status": {
+        "version": "1.10.0",
+        "nodeType": "full",
+        "chain": "mainnet-hive"
+    },
+    "lastBlock": {
+        "timestamp": "2023-11-03T18:06:36",
+        "blockNumber": 32845567,
+        "refHiveBlockNumber": 79844281,
+        "hash": "03e5a2cdbf7c914af3d4585114ee1bc3e9873f76f9fd15938f1e627b171621d4",
+        "previousHash": "1e33e56db9eda4dd45e16909ccbe4a5aca263d570367bbf95b4fa0c412632608"
+    }
+}
+                    </code></pre>
+                </details>
+                <a role="button" href="/he/best">Display best node</a>
+            </article>
+        </div>
+
+        <h2>HiveSQL</h2>
+        <article>
+            <h3>/hivesql</h3>
+            <p>Return HiveSQL status</p>
+
+            <p>Query : <code>curl https://netstat.hivelive.me/hivesql</code></p>
+
+            <details>
+                <summary role="button" class="secondary">Response example</summary>
+                <pre><code>
+{
+    "status": "online",
+    "last_blockchain_block": "79843640",
+    "last_database_block": "79843638",
+    "last_database_sync": "17:34:27 UTC",
+    "sync_gap": "6"
+}
+                </code></pre>
+            </details>
+            <a role="button" href="/hivesql">Display HiveSQL status</a>
+        </article>
+    </main>
+    <footer class="text-center">
+        <p>This dev tool is created with &#9749;, &#x1F496; and &#x231B; by <a href="https://florent-kosmala.fr">Florent "Bambukah" Kosmala</a>. </p>
+        <p>NetworkStatus is a part of the <a href="https://hivelive.me/">HiveLive</a> project</p>
+    </footer>
+
+  </body>
+</html>
+

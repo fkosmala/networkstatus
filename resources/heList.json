@@ -1,0 +1,372 @@
+[
+    {
+        "url": "he.sourov.dev",
+        "name": "he.sourov.dev",
+        "online": true,
+        "ping": 0,
+        "processTime": {
+            "blockchain": 199
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.0",
+                "nodeType": "full",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:50:03",
+                "blockNumber": 38679214,
+                "refHiveBlockNumber": 85678727,
+                "databaseHash": "b1e2fd916e978be56979091357002b6c9b0476c382427a971b1d7eb04c724388",
+                "hash": "87d18eaa97f7046e4f3f625eb38c8e2b32617dc6dd397d484b9eb2f7c9afeb21",
+                "previousHash": "d5e3a4ffd1a4ec69dd481e24e26442c35191c783127f8afb6c6d9180d1c37f5e"
+            },
+            "selectedBlock": {
+                "timestamp": "2023-11-07T07:39:54",
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "databaseHash": "ded79fd553a937047788974006f4265c8c7a9ec1f4661b8af22f7794a34f5814",
+                "previousHash": "29b4db024695f77ffa6b30870074331408ff9c87338ab6bb4d50d88de9b01e82",
+                "hash": "828a79bacb001444c2820c2b8c1e8b36bfbb687d01ea96961c433aa54b5f8c64"
+            },
+            "selectedTx": {
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "transactionId": "2c637ba2b83ad52415a9416452a72763e2f4d7ed",
+                "hash": "f8c7566caf787b4b2a67a702abd77380c0c1f18d6bb113fd46b30c6a6746c74a"
+            }
+        }
+    },
+    {
+        "url": "api.primersion.com",
+        "name": "api.primersion.com",
+        "online": true,
+        "ping": 15,
+        "processTime": {
+            "blockchain": 244
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.1",
+                "nodeType": "full",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:49:57",
+                "blockNumber": 38679212,
+                "refHiveBlockNumber": 85678725,
+                "databaseHash": "53d318d20ed9e7a3a4de3da00794a0f13b08af5348879c75cf3d2e6aefbd3d06",
+                "hash": "17ad854549839a6e60d2b8a0f44625c967c9227fdc8421050ef13d3b603af311",
+                "previousHash": "0102deec79185b40a2b1691796b79d545f6efdf5e5a243cf77ddee9eff95ac2e"
+            },
+            "selectedBlock": {
+                "timestamp": "2023-11-07T07:39:54",
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "databaseHash": "ded79fd553a937047788974006f4265c8c7a9ec1f4661b8af22f7794a34f5814",
+                "previousHash": "29b4db024695f77ffa6b30870074331408ff9c87338ab6bb4d50d88de9b01e82",
+                "hash": "828a79bacb001444c2820c2b8c1e8b36bfbb687d01ea96961c433aa54b5f8c64"
+            },
+            "selectedTx": {
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "transactionId": "2c637ba2b83ad52415a9416452a72763e2f4d7ed",
+                "hash": "f8c7566caf787b4b2a67a702abd77380c0c1f18d6bb113fd46b30c6a6746c74a"
+            }
+        }
+    },
+    {
+        "url": "herpc.dtools.dev",
+        "name": "herpc.dtools.dev",
+        "online": true,
+        "ping": 4,
+        "processTime": {
+            "blockchain": 332
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.1",
+                "nodeType": "full",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:49:57",
+                "blockNumber": 38679212,
+                "refHiveBlockNumber": 85678725,
+                "databaseHash": "53d318d20ed9e7a3a4de3da00794a0f13b08af5348879c75cf3d2e6aefbd3d06",
+                "hash": "17ad854549839a6e60d2b8a0f44625c967c9227fdc8421050ef13d3b603af311",
+                "previousHash": "0102deec79185b40a2b1691796b79d545f6efdf5e5a243cf77ddee9eff95ac2e"
+            },
+            "selectedBlock": {
+                "timestamp": "2023-11-07T07:39:54",
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "databaseHash": "ded79fd553a937047788974006f4265c8c7a9ec1f4661b8af22f7794a34f5814",
+                "previousHash": "29b4db024695f77ffa6b30870074331408ff9c87338ab6bb4d50d88de9b01e82",
+                "hash": "828a79bacb001444c2820c2b8c1e8b36bfbb687d01ea96961c433aa54b5f8c64"
+            },
+            "selectedTx": {
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "transactionId": "2c637ba2b83ad52415a9416452a72763e2f4d7ed",
+                "hash": "f8c7566caf787b4b2a67a702abd77380c0c1f18d6bb113fd46b30c6a6746c74a"
+            }
+        }
+    },
+    {
+        "url": "herpc.actifit.io",
+        "name": "herpc.actifit.io",
+        "online": true,
+        "ping": 6,
+        "processTime": {
+            "blockchain": 398
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.1",
+                "nodeType": "full",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:50:15",
+                "blockNumber": 38679218,
+                "refHiveBlockNumber": 85678731,
+                "databaseHash": "a86c9afef731d1d6dab4bd866d6ea38183f35e0b3063b824f3dba02277c04643",
+                "hash": "d11bc15fab1c91eefcd70cc01390fa8811f8d3553487a6e1b950ca176159893c",
+                "previousHash": "edf7534b1905c57657f63d239b5677800e97b67add279c418b75005231d414b7"
+            },
+            "selectedBlock": {
+                "timestamp": "2023-11-07T07:39:54",
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "databaseHash": "ded79fd553a937047788974006f4265c8c7a9ec1f4661b8af22f7794a34f5814",
+                "previousHash": "29b4db024695f77ffa6b30870074331408ff9c87338ab6bb4d50d88de9b01e82",
+                "hash": "828a79bacb001444c2820c2b8c1e8b36bfbb687d01ea96961c433aa54b5f8c64"
+            },
+            "selectedTx": {
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "transactionId": "2c637ba2b83ad52415a9416452a72763e2f4d7ed",
+                "hash": "f8c7566caf787b4b2a67a702abd77380c0c1f18d6bb113fd46b30c6a6746c74a"
+            }
+        }
+    },
+    {
+        "url": "api.hive-engine.com\/rpc",
+        "name": "api.hive-engine.com",
+        "online": true,
+        "ping": 26,
+        "processTime": {
+            "blockchain": 486
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.1",
+                "nodeType": "full",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:50:15",
+                "blockNumber": 38679218,
+                "refHiveBlockNumber": 85678731,
+                "databaseHash": "a86c9afef731d1d6dab4bd866d6ea38183f35e0b3063b824f3dba02277c04643",
+                "hash": "d11bc15fab1c91eefcd70cc01390fa8811f8d3553487a6e1b950ca176159893c",
+                "previousHash": "edf7534b1905c57657f63d239b5677800e97b67add279c418b75005231d414b7"
+            },
+            "selectedBlock": {
+                "timestamp": "2023-11-07T07:39:54",
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "databaseHash": "ded79fd553a937047788974006f4265c8c7a9ec1f4661b8af22f7794a34f5814",
+                "previousHash": "29b4db024695f77ffa6b30870074331408ff9c87338ab6bb4d50d88de9b01e82",
+                "hash": "828a79bacb001444c2820c2b8c1e8b36bfbb687d01ea96961c433aa54b5f8c64"
+            },
+            "selectedTx": {
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "transactionId": "2c637ba2b83ad52415a9416452a72763e2f4d7ed",
+                "hash": "f8c7566caf787b4b2a67a702abd77380c0c1f18d6bb113fd46b30c6a6746c74a"
+            }
+        }
+    },
+    {
+        "url": "herpc.kanibot.com",
+        "name": "herpc.kanibot.com",
+        "online": true,
+        "ping": 41,
+        "processTime": {
+            "blockchain": 545
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.1",
+                "nodeType": "full",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:49:54",
+                "blockNumber": 38679211,
+                "refHiveBlockNumber": 85678724,
+                "databaseHash": "f216dc76ec1de291f4b35e547044abd99016a397096a2134f95d071b097e4c5e",
+                "hash": "0102deec79185b40a2b1691796b79d545f6efdf5e5a243cf77ddee9eff95ac2e",
+                "previousHash": "ed4c3a710fb28e3e897afe6f4e0a7bcb0bc621426b48168990095800e8e3a77c"
+            },
+            "selectedBlock": {
+                "timestamp": "2023-11-07T07:39:54",
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "databaseHash": "ded79fd553a937047788974006f4265c8c7a9ec1f4661b8af22f7794a34f5814",
+                "previousHash": "29b4db024695f77ffa6b30870074331408ff9c87338ab6bb4d50d88de9b01e82",
+                "hash": "828a79bacb001444c2820c2b8c1e8b36bfbb687d01ea96961c433aa54b5f8c64"
+            },
+            "selectedTx": {
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "transactionId": "2c637ba2b83ad52415a9416452a72763e2f4d7ed",
+                "hash": "f8c7566caf787b4b2a67a702abd77380c0c1f18d6bb113fd46b30c6a6746c74a"
+            }
+        }
+    },
+    {
+        "url": "ha.herpc.dtools.dev",
+        "name": "ha.herpc.dtools.dev",
+        "online": true,
+        "ping": 27,
+        "processTime": {
+            "blockchain": 779
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.0",
+                "nodeType": "full",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:49:57",
+                "blockNumber": 38679212,
+                "refHiveBlockNumber": 85678725,
+                "databaseHash": "53d318d20ed9e7a3a4de3da00794a0f13b08af5348879c75cf3d2e6aefbd3d06",
+                "hash": "17ad854549839a6e60d2b8a0f44625c967c9227fdc8421050ef13d3b603af311",
+                "previousHash": "0102deec79185b40a2b1691796b79d545f6efdf5e5a243cf77ddee9eff95ac2e"
+            },
+            "selectedBlock": {
+                "timestamp": "2023-11-07T07:39:54",
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "databaseHash": "ded79fd553a937047788974006f4265c8c7a9ec1f4661b8af22f7794a34f5814",
+                "previousHash": "29b4db024695f77ffa6b30870074331408ff9c87338ab6bb4d50d88de9b01e82",
+                "hash": "828a79bacb001444c2820c2b8c1e8b36bfbb687d01ea96961c433aa54b5f8c64"
+            },
+            "selectedTx": {
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "transactionId": "2c637ba2b83ad52415a9416452a72763e2f4d7ed",
+                "hash": "f8c7566caf787b4b2a67a702abd77380c0c1f18d6bb113fd46b30c6a6746c74a"
+            }
+        }
+    },
+    {
+        "url": "he.atexoras.com:2083",
+        "name": "he.atexoras.com:2083",
+        "online": true,
+        "ping": 19,
+        "processTime": {
+            "blockchain": 13126
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.1",
+                "nodeType": "full",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:50:06",
+                "blockNumber": 38679215,
+                "refHiveBlockNumber": 85678728,
+                "databaseHash": "b9392f5c5b6ac9851e6614004a2db34edb710d1dbe7455f5750d9d0be6e7c720",
+                "hash": "d49f4ed1213c18d08688bb664340469194151e49ca6bc4149f687d5dbe5b2914",
+                "previousHash": "87d18eaa97f7046e4f3f625eb38c8e2b32617dc6dd397d484b9eb2f7c9afeb21"
+            },
+            "selectedBlock": {
+                "timestamp": "2023-11-07T07:39:54",
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "databaseHash": "ded79fd553a937047788974006f4265c8c7a9ec1f4661b8af22f7794a34f5814",
+                "previousHash": "29b4db024695f77ffa6b30870074331408ff9c87338ab6bb4d50d88de9b01e82",
+                "hash": "828a79bacb001444c2820c2b8c1e8b36bfbb687d01ea96961c433aa54b5f8c64"
+            },
+            "selectedTx": {
+                "blockNumber": 32948123,
+                "refHiveBlockNumber": 79946859,
+                "transactionId": "2c637ba2b83ad52415a9416452a72763e2f4d7ed",
+                "hash": "f8c7566caf787b4b2a67a702abd77380c0c1f18d6bb113fd46b30c6a6746c74a"
+            }
+        }
+    },
+    {
+        "url": "ctpmain.com",
+        "name": "ctpmain.com",
+        "error": true,
+        "online": false,
+        "message": "This node is OFFLINE!"
+    },
+    {
+        "url": "api2.hive-engine.com\/rpc",
+        "name": "api2.hive-engine.com",
+        "online": true,
+        "ping": 34,
+        "processTime": {
+            "blockchain": 488
+        },
+        "blockchain": {
+            "status": {
+                "version": "2.0.1",
+                "nodeType": "light",
+                "chain": "mainnet-hive"
+            },
+            "lastBlock": {
+                "timestamp": "2024-05-24T13:50:15",
+                "blockNumber": 38679218,
+                "refHiveBlockNumber": 85678731,
+                "databaseHash": "a86c9afef731d1d6dab4bd866d6ea38183f35e0b3063b824f3dba02277c04643",
+                "hash": "d11bc15fab1c91eefcd70cc01390fa8811f8d3553487a6e1b950ca176159893c",
+                "previousHash": "edf7534b1905c57657f63d239b5677800e97b67add279c418b75005231d414b7"
+            },
+            "selectedBlock": {
+                "error": true,
+                "message": "The API can't return any block data!"
+            },
+            "selectedTx": {
+                "error": true,
+                "message": "The API can't return any TX data!"
+            }
+        }
+    },
+    {
+        "url": "engine.rishipanthee.com",
+        "name": "engine.rishipanthee.com",
+        "online": true,
+        "ping": 45,
+        "processTime": {
+            "blockchain": 920
+        },
+        "blockchain": {
+            "status": {
+                "error": true,
+                "message": "The API can't return any status data!"
+            },
+            "lastBlock": {
+                "error": true,
+                "message": "The API can't return last block data!"
+            },
+            "selectedBlock": {
+                "error": true,
+                "message": "The API can't return any block data!"
+            },
+            "selectedTx": {
+                "error": true,
+                "message": "The API can't return any TX data!"
+            }
+        }
+    }
+]
